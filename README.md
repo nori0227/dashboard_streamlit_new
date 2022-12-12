@@ -1,11 +1,12 @@
 # dashboard_streamlit
-HHA 507 Assignment 10
 
-Analysis of FIFA Worldcup 2022 Players Stats and Playing time
+## HHA 507 Assignment 10
 
-pip3 install streamlit
+### Analysis of FIFA Worldcup 2022 Players Stats and Playing time
 
-Create a VM in AZURE, copy the IP address and open in terminal (AZURE preffered - Public IP 52.255.181.59):
+##### pip3 install streamlit
+
+##### Create a VM in AZURE, copy the IP address and open in terminal (AZURE preffered - Public IP 52.255.181.59):
 1. sudo apt-get update
 2. sudo apt install python3-pip
 3. git clone ###
