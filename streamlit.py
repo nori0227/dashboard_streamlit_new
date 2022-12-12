@@ -15,7 +15,7 @@ df1 = df1.head(25)
 df1
 
 
-## dataframe 2 - Head 25
+## dataframe 2 - Head 100
 #header
 st.header('FIFA WOLDCUP 2022 Player Playing Time')
 #### Caption ####
