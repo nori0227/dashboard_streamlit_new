@@ -17,12 +17,12 @@
 8. Add inbound port rule in Neworking : 8501
 
 ## important command to run for streamlit to work
-pyenv install 3.10.0  
-On remote machine, installation after doing  Install streamlit -> pip3 install streamlit 
-Go to .bashrc file -> `nano ~/.bashrc` 
-in the nano text editor, type "export PATH="$HOME/.local/bin:$PATH" to the very last line - save / exit 
+1. pyenv install 3.10.0  
+2. On remote machine, installation after doing  Install streamlit -> pip3 install streamlit 
+3. Go to .bashrc file -> `nano ~/.bashrc` 
+4. in the nano text editor, type "export PATH="$HOME/.local/bin:$PATH" to the very last line - save / exit 
 source ~/.bashrc
-pip3 install jinja2 --upgrade
+5. pip3 install jinja2 --upgrade
 
 # Important website
 https://docs.streamlit.io/library/get-started/create-an-app 
