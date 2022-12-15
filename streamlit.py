@@ -2,12 +2,15 @@ import pandas as pd
 import streamlit as st
 import numpy as np
 
-st.title('FIFA WORLDCUP 2022 Playing Time & Stats Data')
+### Title & Caption ####
 
+st.title('FIFA WORLDCUP 2022 Playing Time & Stats Data')
 st.caption('These datatsets are public and were retreived on Dec 12, 2022')
-#### Dataframe 1 - Head 25 ####
-#header
+
+#### Loading in Dataframe 1 - Head 25 ####
+## header ##
 st.header('FIFA WORLDCUP 2022 Player Playing Time')
+
 #### Caption ####
 st.caption('This dataset provides a good understanding of playing time for players in FIFA World CUP 2022')
 df1 = pd.read_csv('player_playingtime.csv')
@@ -16,8 +19,9 @@ df1
 
 
 ## dataframe 2 - Head 100
-#header
+## header ##
 st.header('FIFA WOLDCUP 2022 Player Playing Time')
+
 #### Caption ####
 st.caption('This dataset provides a good understanding of stats for players in FIFA World CUP 2022')
 df2 = pd.read_csv('player_stats.csv')
