@@ -32,13 +32,16 @@ if st.checkbox('Show first 100 records of FIFA 2022 Worldcup'):
 # Displaying the dataframe
 if st.checkbox('player_stats'):
     st.dataframe(df2)
-# Creating a barchart
+
+####### Visualizations Utilizing Streamlit########
+    
+# Visualization 1: Creating a barchart
 st.subheader('Display of  Number of Yellow Cards Received by Players')
 cards_yellow= df2['cards_yellow'].value_counts()
 st.bar_chart(cards_yellow)
 st.caption('Visual provides insight of players numbers getting number of yellow cards')
 
-# Creating a line chart
+# Visualization 2: Creating a bar chart
 st.subheader('Number of Goals')
 num_goals = df2['goals'].value_counts()
 st.bar_chart(num_goals)
